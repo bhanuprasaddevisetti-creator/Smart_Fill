@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python -m py_compile backend/app/api/v1/routes.py)",
+      "Bash(node --check chrome-extension/content.js)",
+      "Bash(node --check chrome-extension/popup.js)"
+    ]
+  }
+}
